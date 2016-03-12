@@ -1,0 +1,28 @@
+html, body {
+	background-color: #2c3e50;
+	color: #ecf0f1;
+}
+a, a:focus, a:active {
+	color: #e67e22;
+	text-decoration: none;
+}
+a:hover {
+	color: #e67e22;
+	opacity: 0.8;
+	text-decoration: none;
+}
+.well {
+	background-color: #7f8c8d;
+}
+.center {
+	text-align: center;
+	text-align: -webkit-center;
+	text-align: -moz-center;	
+}
+#page-title {
+	font-size: 45px;
+	margin: 35px auto;
+}
+#ajax-loader {
+	margin-left: 25px;
+}
