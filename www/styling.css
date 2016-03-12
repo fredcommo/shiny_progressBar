@@ -2,15 +2,6 @@ html, body {
 	background-color: #2c3e50;
 	color: #ecf0f1;
 }
-a, a:focus, a:active {
-	color: #e67e22;
-	text-decoration: none;
-}
-a:hover {
-	color: #e67e22;
-	opacity: 0.8;
-	text-decoration: none;
-}
 .well {
 	background-color: #7f8c8d;
 }
@@ -25,4 +16,37 @@ a:hover {
 }
 #ajax-loader {
 	margin-left: 25px;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.irs-min, .irs-max,
+.irs-from, .irs-to, .irs-single {
+	display: none !important;
+}
+.irs-bar {
+    height: 8px;
+    top: 25px;
+    border-top: 1px solid #e74c3c;
+    border-bottom: 1px solid #e74c3c;
+    background: #e74c3c;
+}
+.irs-bar-edge {
+    height: 8px;
+    top: 25px;
+    width: 14px;
+    border: 1px solid #e74c3c;
+    border-right: 0;
+    background: #e74c3c;
+    border-radius: 16px 0 0 16px;
+    -moz-border-radius: 16px 0 0 16px;
+}
+.irs-grid-text {
+    bottom: 5px;
+    color: #ecf0f1;
+    font-size: 15px;
 }
